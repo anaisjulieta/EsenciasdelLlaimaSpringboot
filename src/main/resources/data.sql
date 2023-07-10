@@ -8,7 +8,7 @@ CREATE TABLE `producto` (
                             PRIMARY KEY (`producto_id`),
                             KEY `idx_producto_cantidad` (`producto_cantidad`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
-insert into `producto` (`producto_id`,`producto_nombre`,`producto_precio`, `producto_descripcion`, `producto_categoria`)
+insert into `producto` (producto_id,producto_nombre,producto_precio, producto_descripcion, producto_categoria)
 values (1, "Inmunapis", 6990, "Formulado científicamente para fortalecer tus defensas de manera natural, evitando y aliviando las enfermedades provocados por virus estacionales como resfrío común, influenza, faringitis, bronquitis, entre otros", "Nutracéutico apícola")
 (2,"Apicolon", 6990, "Formulado cientificamente para tratar úlceras gástricas, protegiendo su sistema digestivo de malestares provocados por H. Pylori, aliviando los reflujos, ardor estomacal y gastritis", "Nutracéutico apícola")
 (3, "Propóleo en spray", 4000, "Formulado para aliviar los dolores de garganta producidos por la tos o irritación (contiene alcohol)", "Natural apícola")
