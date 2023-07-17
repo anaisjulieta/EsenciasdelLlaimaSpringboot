@@ -1,6 +1,7 @@
 package Entities;
 
 import jakarta.persistence.*;
+import jakarta.persistence.criteria.CriteriaBuilder;
 import lombok.*;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
@@ -24,4 +25,7 @@ public class ComprobantedepagoEntity {
     @CreationTimestamp//Indica que el atributo siguiente es una fecha de creación
     private LocalDateTime createdAt;
 
+
+
 }
+
