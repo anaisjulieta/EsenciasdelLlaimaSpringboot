@@ -25,7 +25,7 @@ public class ComprobantedepagoController {
     }
 
     @GetMapping("lista")
-    public List<ComprobantedepagoEntity> obtenerComprobantedePago() {
+    public List<ComprobantedepagoEntity> obtenerComprobantedePago () {
         return comprobantedepagoService.obtenerComprobantedepago();
     }
 
